@@ -3,22 +3,336 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Catalog Product Images</title>
+    <title>Catálogo de Imágenes</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 2rem;
-        color: #222;
+      :root {
+        --bg: #f4f1ea;
+        --panel: rgba(255, 255, 255, 0.8);
+        --ink: #1f2933;
+        --muted: #5b6773;
+        --line: rgba(31, 41, 51, 0.12);
+        --accent: #0f766e;
+        --accent-soft: rgba(15, 118, 110, 0.1);
+        --shadow: 0 18px 40px rgba(31, 41, 51, 0.08);
       }
-      code {
-        background: #f3f3f3;
-        padding: 0.1rem 0.3rem;
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(15, 118, 110, 0.14), transparent 28%),
+          radial-gradient(circle at top right, rgba(217, 119, 6, 0.12), transparent 26%),
+          linear-gradient(180deg, #f8f6f1 0%, var(--bg) 100%);
+      }
+
+      .shell {
+        width: min(1400px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 32px 0 48px;
+      }
+
+      .hero {
+        background: var(--panel);
+        backdrop-filter: blur(10px);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: var(--shadow);
+        padding: 28px;
+        margin-bottom: 24px;
+      }
+
+      .hero h1 {
+        margin: 0 0 10px;
+        font-size: clamp(2rem, 4vw, 3.2rem);
+        line-height: 1;
+      }
+
+      .hero p {
+        margin: 0;
+        max-width: 760px;
+        color: var(--muted);
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      .toolbar {
+        display: grid;
+        grid-template-columns: 1.6fr 1fr 0.7fr;
+        gap: 12px;
+        margin-top: 22px;
+      }
+
+      .toolbar input,
+      .toolbar select {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 14px 16px;
+        font: inherit;
+        color: var(--ink);
+        background: rgba(255, 255, 255, 0.92);
+      }
+
+      .stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 20px 0 0;
+      }
+
+      .stat {
+        background: var(--accent-soft);
+        color: var(--accent);
+        border-radius: 999px;
+        padding: 10px 14px;
+        font-size: 0.92rem;
+        font-weight: 600;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 18px;
+      }
+
+      .card {
+        background: rgba(255, 255, 255, 0.88);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+      }
+
+      .thumb {
+        aspect-ratio: 4 / 3;
+        background: linear-gradient(180deg, #f8fafc 0%, #edf2f7 100%);
+        border-bottom: 1px solid var(--line);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+        background: #fff;
+      }
+
+      .body {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .part {
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        color: var(--accent);
+        text-transform: uppercase;
+      }
+
+      .name {
+        font-size: 1.02rem;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+
+      .category {
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .links {
+        margin-top: auto;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      .links a {
+        text-decoration: none;
+        color: var(--accent);
+        font-weight: 600;
+        font-size: 0.9rem;
+      }
+
+      .empty {
+        display: none;
+        text-align: center;
+        color: var(--muted);
+        padding: 28px;
+        background: rgba(255, 255, 255, 0.75);
+        border: 1px dashed var(--line);
+        border-radius: 18px;
+      }
+
+      @media (max-width: 880px) {
+        .toolbar {
+          grid-template-columns: 1fr;
+        }
       }
     </style>
   </head>
   <body>
-    <h1>Catalog Product Images</h1>
-    <p>Static image hosting for catalog imports.</p>
-    <p>Files are served from <code>/images/</code>.</p>
+    <div class="shell">
+      <section class="hero">
+        <h1>Catálogo de Imágenes</h1>
+        <p>
+          Vista previa ligera para revisar las imágenes publicadas del catálogo.
+          Puedes buscar por nombre o referencia y filtrar por categoría antes de
+          usar las URLs en el importador.
+        </p>
+
+        <div class="toolbar">
+          <input id="searchInput" type="search" placeholder="Buscar por referencia o nombre">
+          <select id="categorySelect">
+            <option value="">Todas las categorías</option>
+          </select>
+          <select id="sortSelect">
+            <option value="partNumber">Orden: referencia</option>
+            <option value="name">Orden: nombre</option>
+            <option value="categoryName">Orden: categoría</option>
+          </select>
+        </div>
+
+        <div class="stats">
+          <div class="stat" id="totalStat">Cargando productos...</div>
+          <div class="stat" id="visibleStat"></div>
+        </div>
+      </section>
+
+      <div class="empty" id="emptyState">No hay productos que coincidan con el filtro actual.</div>
+      <section class="grid" id="grid"></section>
+    </div>
+
+    <script>
+      const grid = document.getElementById("grid");
+      const emptyState = document.getElementById("emptyState");
+      const searchInput = document.getElementById("searchInput");
+      const categorySelect = document.getElementById("categorySelect");
+      const sortSelect = document.getElementById("sortSelect");
+      const totalStat = document.getElementById("totalStat");
+      const visibleStat = document.getElementById("visibleStat");
+
+      let products = [];
+
+      function parseCsv(text) {
+        const lines = text.trim().split(/\r?\n/);
+        const headers = lines[0].split(",");
+        return lines.slice(1).map((line) => {
+          const cells = [];
+          let current = "";
+          let inQuotes = false;
+
+          for (let i = 0; i < line.length; i += 1) {
+            const char = line[i];
+            if (char === '"') {
+              if (inQuotes && line[i + 1] === '"') {
+                current += '"';
+                i += 1;
+              } else {
+                inQuotes = !inQuotes;
+              }
+            } else if (char === "," && !inQuotes) {
+              cells.push(current);
+              current = "";
+            } else {
+              current += char;
+            }
+          }
+          cells.push(current);
+
+          return headers.reduce((acc, header, index) => {
+            acc[header] = cells[index] || "";
+            return acc;
+          }, {});
+        });
+      }
+
+      function fillCategoryOptions(items) {
+        const categories = [...new Set(items.map((item) => item.categoryName).filter(Boolean))].sort();
+        for (const category of categories) {
+          const option = document.createElement("option");
+          option.value = category;
+          option.textContent = category;
+          categorySelect.appendChild(option);
+        }
+      }
+
+      function render(items) {
+        grid.innerHTML = "";
+        emptyState.style.display = items.length ? "none" : "block";
+        visibleStat.textContent = `${items.length} visibles`;
+
+        for (const item of items) {
+          const card = document.createElement("article");
+          card.className = "card";
+          card.innerHTML = `
+            <div class="thumb">
+              <img src="${item.imagePath}" alt="${item.name}">
+            </div>
+            <div class="body">
+              <div class="part">${item.partNumber}</div>
+              <div class="name">${item.name}</div>
+              <div class="category">${item.categoryName}</div>
+              <div class="links">
+                <a href="${item.imagePath}" target="_blank" rel="noopener noreferrer">Abrir imagen</a>
+              </div>
+            </div>
+          `;
+          grid.appendChild(card);
+        }
+      }
+
+      function applyFilters() {
+        const term = searchInput.value.trim().toLowerCase();
+        const category = categorySelect.value;
+        const sortBy = sortSelect.value;
+
+        const filtered = products
+          .filter((item) => {
+            const matchesTerm =
+              !term ||
+              item.partNumber.toLowerCase().includes(term) ||
+              item.name.toLowerCase().includes(term);
+            const matchesCategory = !category || item.categoryName === category;
+            return matchesTerm && matchesCategory;
+          })
+          .sort((a, b) => a[sortBy].localeCompare(b[sortBy], "es", { sensitivity: "base" }));
+
+        render(filtered);
+      }
+
+      async function init() {
+        const response = await fetch("image_manifest.csv");
+        const csvText = await response.text();
+        products = parseCsv(csvText);
+        totalStat.textContent = `${products.length} productos publicados`;
+        fillCategoryOptions(products);
+        applyFilters();
+      }
+
+      searchInput.addEventListener("input", applyFilters);
+      categorySelect.addEventListener("change", applyFilters);
+      sortSelect.addEventListener("change", applyFilters);
+
+      init().catch(() => {
+        totalStat.textContent = "No se pudo cargar el catálogo";
+        emptyState.style.display = "block";
+        emptyState.textContent = "No se ha podido leer image_manifest.csv.";
+      });
+    </script>
   </body>
-  </html>
+</html>
