@@ -13,10 +13,10 @@ BAT0000001,Batería 18 V 2 Ah,Batteries & Chargers,images/BAT0000001_bater-a-18-
 BAT0000002,Batería 18 V 5 Ah,Batteries & Chargers,images/BAT0000002_bater-a-18-v-5-ah.jpg
 BAT0000003,Cargador rápido,Batteries & Chargers,images/BAT0000003_cargador-r-pido.jpg
 BAT0000004,Adaptador USB para batería,Batteries & Chargers,images/BAT0000004_adaptador-usb-para-bater-a.jpg
-HDT0000001,Juego de destornilladores,Hand Tools,images/HDT0000001_juego-de-destornilladores.webp
+HDT0000001,Juego de destornilladores,Hand Tools,images/HDT0000001_juego-de-destornilladores.jpg
 TST0000001,Destornillador buscapolos,Electrical Testing,images/TST0000001_destornillador-buscapolos.jpg
-PRT0000001,Destornillador de precisión,Precision Tools,images/PRT0000001_destornillador-de-precisi-n.webp
-HDT0000002,Juego de llaves Allen,Hand Tools,images/HDT0000002_juego-de-llaves-allen.webp
+PRT0000001,Destornillador de precisión,Precision Tools,images/PRT0000001_destornillador-de-precisi-n.jpg
+HDT0000002,Juego de llaves Allen,Hand Tools,images/HDT0000002_juego-de-llaves-allen.jpg
 HDT0000003,Juego de llaves Torx,Hand Tools,images/HDT0000003_juego-de-llaves-torx.jpg
 HDT0000004,Llave inglesa,Hand Tools,images/HDT0000004_llave-inglesa.jpg
 HDT0000005,Llave grifa,Hand Tools,images/HDT0000005_llave-grifa.jpg
@@ -62,7 +62,7 @@ ELC0000006,Canaleta PVC,Electrical Consumables,images/ELC0000006_canaleta-pvc.jp
 ELC0000007,Regleta de conexión,Electrical Consumables,images/ELC0000007_regleta-de-conexi-n.jpg
 ELC0000008,Clemas,Electrical Consumables,images/ELC0000008_clemas.jpg
 ELC0000009,Conectores rápidos Wago 221,Electrical Consumables,images/ELC0000009_conectores-r-pidos-wago-221.jpg
-ELC0000010,Terminales eléctricos surtidos,Electrical Consumables,images/ELC0000010_terminales-el-ctricos-surtidos.svg
+ELC0000010,Terminales eléctricos surtidos,Electrical Consumables,images/ELC0000010_terminales-el-ctricos-surtidos.jpg
 ELC0000011,Tubo termorretráctil,Electrical Consumables,images/ELC0000011_tubo-termorretr-ctil.jpg
 ELI0000001,Enchufe Schuko empotrar,Electrical Installation,images/ELI0000001_enchufe-schuko-empotrar.jpg
 ELI0000002,Enchufe Schuko superficie,Electrical Installation,images/ELI0000002_enchufe-schuko-superficie.jpg
