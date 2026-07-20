@@ -1,0 +1,125 @@
+partNumber,name,categoryName,imagePath
+PWT0000001,Taladro percutor,Power Tools,images/PWT0000001_taladro-percutor.png
+PWT0000002,Atornillador a batería,Power Tools,images/PWT0000002_atornillador-a-bater-a.jpg
+PWT0000003,Martillo perforador SDS+,Power Tools,images/PWT0000003_martillo-perforador-sds.jpg
+PWT0000004,Amoladora angular,Power Tools,images/PWT0000004_amoladora-angular.png
+PWT0000005,Sierra de calar,Power Tools,images/PWT0000005_sierra-de-calar.jpg
+PWT0000006,Sierra sable,Power Tools,images/PWT0000006_sierra-sable.jpg
+PWT0000007,Multiherramienta oscilante,Power Tools,images/PWT0000007_multiherramienta-oscilante.jpg
+CLE0000001,Aspirador portátil,Cleaning Equipment,images/CLE0000001_aspirador-port-til.jpg
+LGT0000001,Linterna LED,Lighting,images/LGT0000001_linterna-led.jpg
+LGT0000002,Proyector LED recargable,Lighting,images/LGT0000002_proyector-led-recargable.jpg
+BAT0000001,Batería 18 V 2 Ah,Batteries & Chargers,images/BAT0000001_bater-a-18-v-2-ah.png
+BAT0000002,Batería 18 V 5 Ah,Batteries & Chargers,images/BAT0000002_bater-a-18-v-5-ah.jpg
+BAT0000003,Cargador rápido,Batteries & Chargers,images/BAT0000003_cargador-r-pido.jpg
+BAT0000004,Adaptador USB para batería,Batteries & Chargers,images/BAT0000004_adaptador-usb-para-bater-a.jpg
+HDT0000001,Juego de destornilladores,Hand Tools,images/HDT0000001_juego-de-destornilladores.webp
+TST0000001,Destornillador buscapolos,Electrical Testing,images/TST0000001_destornillador-buscapolos.jpg
+PRT0000001,Destornillador de precisión,Precision Tools,images/PRT0000001_destornillador-de-precisi-n.webp
+HDT0000002,Juego de llaves Allen,Hand Tools,images/HDT0000002_juego-de-llaves-allen.webp
+HDT0000003,Juego de llaves Torx,Hand Tools,images/HDT0000003_juego-de-llaves-torx.jpg
+HDT0000004,Llave inglesa,Hand Tools,images/HDT0000004_llave-inglesa.jpg
+HDT0000005,Llave grifa,Hand Tools,images/HDT0000005_llave-grifa.jpg
+HDT0000006,Llave de tubo,Hand Tools,images/HDT0000006_llave-de-tubo.jpg
+HDT0000007,Llave fija combinada,Hand Tools,images/HDT0000007_llave-fija-combinada.jpg
+HDT0000008,Alicate universal,Hand Tools,images/HDT0000008_alicate-universal.jpg
+HDT0000009,Alicate de corte,Hand Tools,images/HDT0000009_alicate-de-corte.jpg
+HDT0000010,Alicate de punta,Hand Tools,images/HDT0000010_alicate-de-punta.jpg
+HDT0000011,Pelacables,Hand Tools,images/HDT0000011_pelacables.jpg
+HDT0000012,Crimpadora RJ45,Hand Tools,images/HDT0000012_crimpadora-rj45.jpg
+HDT0000013,Crimpadora terminales eléctricos,Hand Tools,images/HDT0000013_crimpadora-terminales-el-ctricos.jpg
+HDT0000014,Cúter,Hand Tools,images/HDT0000014_c-ter.jpg
+HDT0000015,Tijeras de electricista,Hand Tools,images/HDT0000015_tijeras-de-electricista.jpg
+HDT0000016,Martillo,Hand Tools,images/HDT0000016_martillo.jpg
+HDT0000017,Maza de goma,Hand Tools,images/HDT0000017_maza-de-goma.jpg
+MEA0000001,Nivel de burbuja,Measuring & Layout Tools,images/MEA0000001_nivel-de-burbuja.jpg
+MEA0000002,Nivel láser,Measuring & Layout Tools,images/MEA0000002_nivel-l-ser.jpg
+MEA0000003,Flexómetro 5 m,Measuring & Layout Tools,images/MEA0000003_flex-metro-5-m.jpg
+MEA0000004,Escuadra,Measuring & Layout Tools,images/MEA0000004_escuadra.jpg
+MEA0000005,Punta trazadora,Measuring & Layout Tools,images/MEA0000005_punta-trazadora.jpg
+ACC0000001,Brocas para metal,Tool Accessories,images/ACC0000001_brocas-para-metal.jpg
+ACC0000002,Brocas para madera,Tool Accessories,images/ACC0000002_brocas-para-madera.jpg
+ACC0000003,Brocas para hormigón,Tool Accessories,images/ACC0000003_brocas-para-hormig-n.jpg
+ACC0000004,Brocas SDS+,Tool Accessories,images/ACC0000004_brocas-sds.jpg
+ACC0000005,Coronas de perforación,Tool Accessories,images/ACC0000005_coronas-de-perforaci-n.jpg
+ACC0000006,Juego de puntas de atornillar,Tool Accessories,images/ACC0000006_juego-de-puntas-de-atornillar.jpg
+HDT0000018,Vasos magnéticos,Hand Tools,images/HDT0000018_vasos-magn-ticos.jpg
+ACC0000007,Discos de corte metal,Tool Accessories,images/ACC0000007_discos-de-corte-metal.jpg
+ACC0000008,Discos de diamante,Tool Accessories,images/ACC0000008_discos-de-diamante.jpg
+ACC0000009,Lijas,Tool Accessories,images/ACC0000009_lijas.jpg
+CBL0000001,Cable H07V-K 1,Cables & Wiring,images/CBL0000001_cable-h07v-k-1.jpg
+CBL0000002,Cable H07V-K 2,Cables & Wiring,images/CBL0000002_cable-h07v-k-2.jpg
+CBL0000003,Cable flexible 3×1,Cables & Wiring,images/CBL0000003_cable-flexible-3-1.jpg
+CBL0000004,Cable flexible 3×2,Cables & Wiring,images/CBL0000004_cable-flexible-3-2.jpg
+CBL0000005,Cable Ethernet Cat6,Cables & Wiring,images/CBL0000005_cable-ethernet-cat6.jpg
+CBL0000006,Cable coaxial,Cables & Wiring,images/CBL0000006_cable-coaxial.jpg
+ELC0000001,Bridas de nylon,Electrical Consumables,images/ELC0000001_bridas-de-nylon.png
+ELC0000002,Cinta aislante negra,Electrical Consumables,images/ELC0000002_cinta-aislante-negra.jpg
+ELC0000003,Cinta aislante colores,Electrical Consumables,images/ELC0000003_cinta-aislante-colores.jpg
+ELC0000004,Tubo corrugado 20 mm,Electrical Consumables,images/ELC0000004_tubo-corrugado-20-mm.jpg
+ELC0000005,Tubo corrugado 25 mm,Electrical Consumables,images/ELC0000005_tubo-corrugado-25-mm.jpg
+ELC0000006,Canaleta PVC,Electrical Consumables,images/ELC0000006_canaleta-pvc.jpg
+ELC0000007,Regleta de conexión,Electrical Consumables,images/ELC0000007_regleta-de-conexi-n.jpg
+ELC0000008,Clemas,Electrical Consumables,images/ELC0000008_clemas.jpg
+ELC0000009,Conectores rápidos Wago 221,Electrical Consumables,images/ELC0000009_conectores-r-pidos-wago-221.jpg
+ELC0000010,Terminales eléctricos surtidos,Electrical Consumables,images/ELC0000010_terminales-el-ctricos-surtidos.svg
+ELC0000011,Tubo termorretráctil,Electrical Consumables,images/ELC0000011_tubo-termorretr-ctil.jpg
+ELI0000001,Enchufe Schuko empotrar,Electrical Installation,images/ELI0000001_enchufe-schuko-empotrar.jpg
+ELI0000002,Enchufe Schuko superficie,Electrical Installation,images/ELI0000002_enchufe-schuko-superficie.jpg
+ELI0000003,Interruptor simple,Electrical Installation,images/ELI0000003_interruptor-simple.jpg
+ELI0000004,Interruptor doble,Electrical Installation,images/ELI0000004_interruptor-doble.jpg
+ELI0000005,Conmutador,Electrical Installation,images/ELI0000005_conmutador.jpg
+ELI0000006,Caja de mecanismos,Electrical Installation,images/ELI0000006_caja-de-mecanismos.jpg
+ELI0000007,Caja de derivación,Electrical Installation,images/ELI0000007_caja-de-derivaci-n.jpg
+ELI0000008,Base múltiple,Electrical Installation,images/ELI0000008_base-m-ltiple.jpg
+ELI0000009,Alargador eléctrico,Electrical Installation,images/ELI0000009_alargador-el-ctrico.jpg
+ELI0000010,Diferencial,Electrical Installation,images/ELI0000010_diferencial.jpg
+ELI0000011,Magnetotérmico,Electrical Installation,images/ELI0000011_magnetot-rmico.jpg
+NET0000001,Keystone RJ45 Cat6,Networking,images/NET0000001_keystone-rj45-cat6.jpg
+NET0000002,Roseta RJ45,Networking,images/NET0000002_roseta-rj45.jpg
+NET0000003,Patch cord Cat6 1 m,Networking,images/NET0000003_patch-cord-cat6-1-m.jpg
+NET0000004,Patch cord Cat6 2 m,Networking,images/NET0000004_patch-cord-cat6-2-m.jpg
+NET0000005,Patch panel,Networking,images/NET0000005_patch-panel.jpg
+NET0000006,Organizador de cables,Networking,images/NET0000006_organizador-de-cables.jpg
+CBM0000001,Velcro para cableado,Cable Management,images/CBM0000001_velcro-para-cableado.jpg
+FIX0000001,Tornillos para madera,Fixings & Fasteners,images/FIX0000001_tornillos-para-madera.jpg
+FIX0000002,Tornillos para metal,Fixings & Fasteners,images/FIX0000002_tornillos-para-metal.jpg
+FIX0000003,Tirafondos,Fixings & Fasteners,images/FIX0000003_tirafondos.jpg
+FIX0000004,Taco nylon 6 mm,Fixings & Fasteners,images/FIX0000004_taco-nylon-6-mm.jpg
+FIX0000005,Taco nylon 8 mm,Fixings & Fasteners,images/FIX0000005_taco-nylon-8-mm.jpg
+FIX0000006,Taco nylon 10 mm,Fixings & Fasteners,images/FIX0000006_taco-nylon-10-mm.jpg
+FIX0000007,Taco químico,Fixings & Fasteners,images/FIX0000007_taco-qu-mico.jpg
+FIX0000008,Varilla roscada,Fixings & Fasteners,images/FIX0000008_varilla-roscada.jpg
+FIX0000009,Tuercas M6,Fixings & Fasteners,images/FIX0000009_tuercas-m6.jpg
+FIX0000010,Arandelas M6,Fixings & Fasteners,images/FIX0000010_arandelas-m6.jpg
+FIX0000011,Remaches,Fixings & Fasteners,images/FIX0000011_remaches.jpg
+FIX0000012,Grapas para cable,Fixings & Fasteners,images/FIX0000012_grapas-para-cable.jpg
+SEA0000001,Silicona neutra,Sealants & Adhesives,images/SEA0000001_silicona-neutra.jpg
+SEA0000002,Silicona sanitaria,Sealants & Adhesives,images/SEA0000002_silicona-sanitaria.jpg
+SEA0000003,Adhesivo de montaje,Sealants & Adhesives,images/SEA0000003_adhesivo-de-montaje.jpg
+SEA0000004,Espuma de poliuretano,Sealants & Adhesives,images/SEA0000004_espuma-de-poliuretano.jpg
+MNT0000001,Lubricante WD-40,Maintenance & Cleaning,images/MNT0000001_lubricante-wd-40.jpg
+MNT0000002,Alcohol isopropílico,Maintenance & Cleaning,images/MNT0000002_alcohol-isoprop-lico.jpg
+MNT0000003,Limpiador de contactos,Maintenance & Cleaning,images/MNT0000003_limpiador-de-contactos.jpg
+MNT0000004,Trapos de limpieza,Maintenance & Cleaning,images/MNT0000004_trapos-de-limpieza.jpg
+TST0000002,Multímetro digital,Electrical Testing,images/TST0000002_mult-metro-digital.jpg
+TST0000003,Pinza amperimétrica,Electrical Testing,images/TST0000003_pinza-amperim-trica.jpg
+TST0000004,Detector de tensión,Electrical Testing,images/TST0000004_detector-de-tensi-n.jpg
+TST0000005,Detector de cables,Electrical Testing,images/TST0000005_detector-de-cables.jpg
+ELI0000012,Comprobador de enchufes,Electrical Installation,images/ELI0000012_comprobador-de-enchufes.jpg
+TST0000006,Comprobador de red RJ45,Electrical Testing,images/TST0000006_comprobador-de-red-rj45.jpg
+PPE0000001,Guantes de trabajo,PPE,images/PPE0000001_guantes-de-trabajo.jpg
+PPE0000002,Gafas de protección,PPE,images/PPE0000002_gafas-de-protecci-n.jpg
+PPE0000003,Casco,PPE,images/PPE0000003_casco.jpg
+PPE0000004,Chaleco reflectante,PPE,images/PPE0000004_chaleco-reflectante.jpg
+PPE0000005,Protectores auditivos,PPE,images/PPE0000005_protectores-auditivos.jpg
+PPE0000006,Mascarillas FFP2,PPE,images/PPE0000006_mascarillas-ffp2.jpg
+FAD0000001,Botiquín,First Aid,images/FAD0000001_botiqu-n.jpg
+ACS0000001,Escalera telescópica,Access Equipment,images/ACS0000001_escalera-telesc-pica.jpg
+STO0000001,Caja de herramientas,Tool Storage & Transport,images/STO0000001_caja-de-herramientas.jpg
+STO0000002,Organizador de tornillería,Tool Storage & Transport,images/STO0000002_organizador-de-torniller-a.jpg
+STO0000003,Mochila de herramientas,Tool Storage & Transport,images/STO0000003_mochila-de-herramientas.jpg
+STO0000004,Carro de transporte,Tool Storage & Transport,images/STO0000004_carro-de-transporte.jpg
+SIT0000001,Bidón de agua,Site Supplies,images/SIT0000001_bid-n-de-agua.jpg
+MRK0000001,Rotulador permanente,Marking & Labels,images/MRK0000001_rotulador-permanente.jpg
+MRK0000002,Etiquetas identificativas,Marking & Labels,images/MRK0000002_etiquetas-identificativas.jpg
